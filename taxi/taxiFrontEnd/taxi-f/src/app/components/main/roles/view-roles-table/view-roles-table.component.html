@@ -1,0 +1,40 @@
+<h2>Роли</h2>
+<input type="button" value="Добавить" class="btn  btn-sm btn-success" (click)="addRole()"/>
+<!--<table class="table table-sm ">-->
+<!--  <thead>-->
+<div class="d-flex">
+  <div class="row border-bottom w-100 bg-light p-2 ">
+    <div class="col-3">Id</div>
+    <div class="col-3">Role name</div>
+    <div class="col-3"></div>
+    <div class="col-3"></div>
+  </div>
+                  
+</div>
+<div *ngFor="let role of roles">
+  <ng-template [ngTemplateOutlet]="loadTemplate(role)"
+               [ngTemplateOutletContext]="{$implicit: role}"></ng-template>
+</div>
+<div class="alert alert-primary" role="alert">
+  {{statusMessage}}
+</div>
+<!--шаблон для чтения-->
+<ng-template #readOnlyTemplate let-role>
+  <div class="row border-bottom w-100 p-2">
+    <div class="col">{{role?.roleId}}</div>
+    <div class="col">{{role?.name}}</div>
+    <div class="col"><input type="button" value="Изменить" class="btn btn-sm btn-primary" (click)="editRole(role)"/></div>
+    <div class="col"><input type="button" value="Удалить" (click)="deleteRole(role)" class="btn btn-sm btn-danger"/>
+    </div>
+  </div>
+</ng-template>
+<!--шаблон для редактирования-->
+<ng-template #editTemplate>
+  <div class="row border-bottom w-100 p-2">
+    <div class="col"><input type="number" [(ngModel)]="editedRole.roleId" readonly disabled class="form-control form-control-sm"/></div>
+    <div class="col"><input type="text" [(ngModel)]="editedRole.name" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="button" value="Сохранить" (click)="saveRole()" class="btn btn-sm btn-success"/></div>
+    <div class="col"><input type="button" value="Отмена" (click)="cancel()" class="btn btn-sm btn-warning"/></div>
+  </div>
+
+</ng-template>

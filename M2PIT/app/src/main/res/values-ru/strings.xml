@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">M2</string>
+    <string name="Hello_world">Hello World!</string>
+    <string name="pit_name">ПЕРСПЕКТИВНЫЕ</string>
+    <string name="information">ИНФОРМАЦИОННЫЕ</string>
+    <string name="technologies">ТЕХНОЛОГИИ</string>
+    <string name="registration">РЕГИСТРАЦИЯ</string>
+    <string name="login">Войти</string>
+    <string name="todo">TODO</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="title_activity_main_main">Меню</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_add_request">AddRequestActivity</string>
+    <string name="text_re">Заявка</string>
+    <string name="pit18">ПИТ18</string>
+    <string name="pit20">ПИТ20</string>
+    <string name="pit19">ПИТ19</string>
+    <string name="draft">Черновики:</string>
+    <string name="reuest">Заявки:</string>
+    <string name="Upload">Загрузить</string>
+    <string name="enterFile">Не выбран</string>
+    <string name="Name">ФИО</string>
+    <string name="saveToDraft">Сохранить в черновик</string>
+    <string name="fio">ФИО</string>
+    <string name="name_work">Название работы</string>
+    <string name="no_select">Не выбран</string>
+    <string name="file">Файл</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="telephone">Телефон</string>
+    <string name="open_map">КАРТА</string>
+    <string name="confirmpass">Повторите пароль</string>
+    <string name="tonOnGps">\@tonOnGps</string>
+
+</resources>

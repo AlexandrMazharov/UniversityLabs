@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="594079d6-de58-4225-8069-f4d4a955f7a7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Lezina" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XtCSp5hNucpmMWyeeywR4EUBcD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab4FX" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="lab1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lab1" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="visitor38.Main" />
+      <module name="Lezina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="visitor38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.comand32.Main" />
+      <module name="Lezina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.comand32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.strategy6.Main" />
+      <module name="Lezina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.strategy6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.Main" />
+      <module name="Lezina" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.visitor38.Main" />
+      <module name="Lezina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.visitor38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.сhainOfResponsibility31.Main" />
+      <module name="Lezina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.сhainOfResponsibility31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.strategy36.Main" />
+      <module name="Lezina" />
+      <option name="PROGRAM_PARAMETERS" value="C:\\Users\\Alexander\\Desktop\\testTask\\Lezina\\src\\lab3\\strategy6\\person.xml newDomFile.xml newSAXFile.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.strategy36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.MainDao" />
+      <module name="Lezina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.сhainOfResponsibility1.Main" />
+      <module name="Lezina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.сhainOfResponsibility1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="594079d6-de58-4225-8069-f4d4a955f7a7" name="Default Changelist" comment="" />
+      <created>1581856005452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581856005452</updated>
+      <workItem from="1581856010977" duration="39753000" />
+      <workItem from="1582041804081" duration="621000" />
+      <workItem from="1582050420463" duration="5674000" />
+      <workItem from="1582615360166" duration="47885000" />
+      <workItem from="1583135558841" duration="3647000" />
+      <workItem from="1583142439017" duration="597000" />
+      <workItem from="1583219501222" duration="7929000" />
+      <workItem from="1583245409581" duration="13729000" />
+      <workItem from="1583314574128" duration="10651000" />
+      <workItem from="1583418445393" duration="8009000" />
+      <workItem from="1583675260049" duration="13452000" />
+      <workItem from="1584203228687" duration="6800000" />
+      <workItem from="1585033771304" duration="1000" />
+      <workItem from="1586782250842" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="86" y="85" key="#Main_(1)" timestamp="1586855310960">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="86" y="85" key="#Main_(1)/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586855310960" />
+    <state x="409" y="48" key="#Main_(4)" timestamp="1586855285208">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="409" y="48" key="#Main_(4)/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586855285208" />
+    <state x="455" y="177" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586266678242">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="455" y="177" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1585049190373" />
+    <state x="455" y="177" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736@0.0.1366.736" timestamp="1586266678242" />
+    <state x="139" y="112" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586853611305">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="139" y="112" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586853611305" />
+    <state x="475" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1586802300361">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="475" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586172061123" />
+    <state x="475" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586440166189" />
+    <state x="475" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.736@0.0.1366.736" timestamp="1586802300361" />
+    <state x="921" y="444" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585039660048">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="921" y="444" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1585039660048" />
+    <state x="484" y="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586177590375">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="484" y="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.736@0.0.1366.736" timestamp="1586177590375" />
+    <state x="98" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586790700394">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="98" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.736@0.0.1366.736" timestamp="1586790700394" />
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1585045686329">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1585045686329" />
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1586855335956">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586855335956" />
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451902" />
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.736@0.0.1366.736" timestamp="1586802992168" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1586855335955">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586855335955" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451902" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.736@0.0.1366.736" timestamp="1586802992168" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1586855335955">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586855335955" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451901" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.736@0.0.1366.736" timestamp="1586802992168" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1586855335956">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586855335956" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451902" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.736@0.0.1366.736" timestamp="1586802992168" />
+    <state width="1323" height="190" key="GridCell.Tab.1.bottom" timestamp="1586793064802">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="243" key="GridCell.Tab.1.bottom/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586174562654" />
+    <state width="1323" height="163" key="GridCell.Tab.1.bottom/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451903" />
+    <state width="1323" height="190" key="GridCell.Tab.1.bottom/0.0.1366.736@0.0.1366.736" timestamp="1586793064802" />
+    <state width="1323" height="190" key="GridCell.Tab.1.center" timestamp="1586793064802">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="243" key="GridCell.Tab.1.center/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586174562654" />
+    <state width="1323" height="163" key="GridCell.Tab.1.center/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451903" />
+    <state width="1323" height="190" key="GridCell.Tab.1.center/0.0.1366.736@0.0.1366.736" timestamp="1586793064802" />
+    <state width="1323" height="190" key="GridCell.Tab.1.left" timestamp="1586793064801">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="243" key="GridCell.Tab.1.left/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586174562654" />
+    <state width="1323" height="163" key="GridCell.Tab.1.left/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451902" />
+    <state width="1323" height="190" key="GridCell.Tab.1.left/0.0.1366.736@0.0.1366.736" timestamp="1586793064801" />
+    <state width="1323" height="190" key="GridCell.Tab.1.right" timestamp="1586793064802">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="243" key="GridCell.Tab.1.right/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586174562654" />
+    <state width="1323" height="163" key="GridCell.Tab.1.right/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586686451903" />
+    <state width="1323" height="190" key="GridCell.Tab.1.right/0.0.1366.736@0.0.1366.736" timestamp="1586793064802" />
+    <state x="73" y="0" key="SettingsEditor" timestamp="1585041542373">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="73" y="0" key="SettingsEditor/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1585041542373" />
+    <state x="390" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1585036997493">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="390" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1585036997493" />
+    <state x="276" y="75" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1586425972905">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="276" y="75" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586425972904" />
+    <state x="1792" y="341" width="1064" height="654" key="dock-window-1" timestamp="1586459750946">
+      <screen x="1366" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1792" y="341" width="1064" height="654" key="dock-window-1/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586459750946" />
+    <state x="766" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586283332132">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="766" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.736@0.0.1366.736" timestamp="1586283332132" />
+    <state x="482" y="193" key="run.anything.popup" timestamp="1586850656356">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="482" y="193" key="run.anything.popup/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586850656356" />
+    <state x="482" y="193" key="run.anything.popup/0.0.1366.736@0.0.1366.736" timestamp="1586793414240" />
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1586454556153">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.736/1366.0.1440.870@0.0.1366.736" timestamp="1586173167989" />
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.736/1366.0.1920.1050@0.0.1366.736" timestamp="1586454556153" />
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.736@0.0.1366.736" timestamp="1586265941808" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab1/Moto.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab1/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/Byte.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab3/сhainOfResponsibility31/Writer1.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab1/lab33/Memento.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab3/strategy6/SAXCorrect.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab3/strategy6/DomCorrect.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab3/strategy6/DomCorrect.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab3/strategy6/DomCorrect.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab3/strategy6/SAXCorrect.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/lab3/strategy6/SAXCorrect.java</url>
+          <line>96</line>
+          <properties field="newFile" class="lab3.strategy6.SAXCorrect" />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/lab3/comand32/PrintColumn.java</url>
+          <line>15</line>
+          <properties class="lab3.comand32.PrintColumn" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="myMoto" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lezina$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1586853323792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lab3.strategy6.*</FILTER>
+    </SUITE>
+  </component>
+</project>

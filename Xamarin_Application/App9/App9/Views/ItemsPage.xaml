@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App9.Views.ItemsPage"
+             xmlns:resources= "clr-namespace:App9.Resx"
+             Title="{x:Static resources:Resource.text_your_request}"
+             >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="{x:Static resources:Resource.text_add}" Clicked="AddItem_Clicked" />
+        <ToolbarItem Text="{x:Static resources:Resource.text_maps}" Clicked="Maps_Clicked" />
+
+
+    </ContentPage.ToolbarItems>
+
+    <StackLayout
+        
+        >
+        <ScrollView>
+        <ListView x:Name="ItemsListView"                
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                RefreshCommand="{Binding LoadItemsCommand}"
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                CachingStrategy="RecycleElement"
+                ItemSelected="OnItemSelected"
+                  BackgroundColor="#F4F4F4"
+                  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell >
+
+                        <StackLayout Margin="20" BackgroundColor="White" >
+                            <Frame HasShadow="False" CornerRadius="10" HorizontalOptions="Start" BackgroundColor="#85A0FF"
+                                   WidthRequest="120" HeightRequest="25" Padding="5" Margin="0,-7,0,0" 
+                                   >
+                                <Label Text="{Binding TitleSatus}" 
+                                       x:Name="lbl_status"
+                                       Padding="1"
+                                       Margin="0"
+                                       d:Text="Item Agreed"
+                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                       FontSize="18" 
+                                       TextColor="White"                                                                                                                     
+                                           />
+                            </Frame>
+                            <Frame Padding="5"
+                                   Margin="10,0,0,0"
+                                   CornerRadius="0"
+                                   HasShadow="False">
+                                <Label Text="{Binding WorkName}"
+                                   BackgroundColor="White"
+                                   d:Text="{Binding workName}"
+                                   LineBreakMode="NoWrap" 
+                                   Style="{DynamicResource ListItemTextStyle}" 
+                                   FontSize="16"   
+                                   
+                                                                     
+                                   />
+                            </Frame>
+
+
+
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

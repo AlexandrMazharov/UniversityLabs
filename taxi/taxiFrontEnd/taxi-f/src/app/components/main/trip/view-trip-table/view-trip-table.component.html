@@ -1,0 +1,69 @@
+<h2>Поездки</h2>
+<input type="button" value="Добавить" class="btn btn-sm btn-success" (click)="addTrip()"/>
+<div class="row border-bottom w-100 bg-light p-2">
+  <div class="col">Водитель</div>
+  <div class="col">Пользователь</div>
+  <div class="col">Адрес исходный</div>
+  <div class="col">Адрес конечный</div>
+  <div class="col">Цена</div>
+  <div class="col">Отзыв</div>
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+<div *ngFor="let trip of trips">
+  <ng-template [ngTemplateOutlet]="loadTemplate(trip)" [ngTemplateOutletContext]="{ $implicit: trip}"></ng-template>
+</div>
+<div class="alert alert-primary" role="alert">{{statusMessage}}</div>
+
+ 
+    
+<!--шаблон для чтения-->
+<ng-template #readOnlyTemplate let-trip>
+  <div class="row  py-1  border-bottom w-100">
+    <div class="col">{{trip?.trip_dirver.userEmail}}</div>
+    <div class="col">{{trip?.trip_user.userEmail}}</div>
+    <div class="col">{{trip?.trip_adress_a}}</div>
+    <div class="col">{{trip?.trip_adress_b}}</div>
+    <div class="col">{{trip?.trip_price}}</div>
+    <div class="col">{{trip?.trip_feedback}}</div>
+    <div class="col">
+      <input type="button" value="Изменить" class="btn  btn-sm btn-primary" (click)="editTrip(trip)"/>
+    </div>
+    <div class="col">
+      <input type="button" value="Удалить" (click)="deleteTrip(trip)" class="btn btn-sm btn-danger"/>
+    </div>
+  </div>
+</ng-template>
+   
+<!--шаблон для редактирования-->
+<ng-template #editTemplate>
+  <div class="row  py-1 border-bottom w-100">
+    <div class="mb-3 col"><select class="custom-select custom-select-sm" [(ngModel)]="editedTrip.trip_dirver.userId"
+                                  required>
+      <option *ngFor="let c of users" [ngValue]="c.userId">{{c.userEmail}}</option>
+    </select>
+      <div class="invalid-feedback">Example invalid custom select feedback</div>
+    </div>
+
+    <div class="mb-3 col">
+      <select class="custom-select custom-select-sm" [(ngModel)]="editedTrip.trip_user.userId" required>
+        <option *ngFor="let cc of users" [ngValue]="cc.userId">{{cc.userEmail}}</option>
+      </select>
+      <div class="invalid-feedback">Example invalid custom select feedback</div>
+    </div>
+
+    <div class="col"><input type="text" [(ngModel)]="editedTrip.trip_adress_a" class="form-control form-control-sm"/>
+    </div>
+    <div class="col"><input type="text" [(ngModel)]="editedTrip.trip_adress_b" class="form-control form-control-sm"/>
+    </div>
+    <div class="col"><input type="number" [(ngModel)]="editedTrip.trip_price" class="form-control form-control-sm"/>
+    </div>
+    <div class="col"><input type="text" [(ngModel)]="editedTrip.trip_feedback" class="form-control form-control-sm"/>
+    </div>
+    <div class="col"><input type="button" value="Сохранить" (click)="saveTrip()" class="btn btn-sm btn-success"/>
+    </div>
+    <div class="col"><input type="button" value="Отмена" (click)="cancel()" class="btn btn-sm btn-warning"/>    
+    </div>
+  </div>
+</ng-template>
+

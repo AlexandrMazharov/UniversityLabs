@@ -1,0 +1,14 @@
+.col{
+  overflow: auto;
+  margin: 0px 1px;
+}
+.col::-webkit-scrollbar{
+  height: 5px;
+  background: #a09f9f;
+
+}
+
+.row{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

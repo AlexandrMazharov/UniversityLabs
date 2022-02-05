@@ -1,0 +1,66 @@
+<h2>Пользователи</h2>
+
+<div class="d-flex">
+  <div class="row w-100 bg-light p-2 flex-nowrap">
+    <div class="col-2">Email</div>
+    <div class="col">Password</div>
+    <div class="col">First name</div>
+    <div class="col">Second name</div>
+    <div class="col">Last name</div>
+    <div class="col">Raiting</div>
+    <div class="col-2">Role</div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+</div>
+<div *ngFor="let item of userTaxi">
+  <ng-template [ngTemplateOutlet]="loadTemplate(item)" [ngTemplateOutletContext]="{ $implicit: item}">
+  </ng-template>
+</div>
+<div class="alert alert-primary" role="alert">{{statusMessage}}
+</div>
+<input type="button" value="Добавить" class="btn btn-sm btn-success" (click)="addUserTaxi()"/>
+
+<!--шаблон для чтения-->
+<ng-template #readOnlyTemplate let-userTaxi>
+  <div class="border-bottom row w-100 flex-nowrap">
+    <div class="col-2">{{userTaxi?.userEmail}}</div>
+    <div class="col">{{userTaxi?.userPassword}}</div>
+
+    <div class="col">{{userTaxi?.userFirstName}}</div>
+    <div class="col">{{userTaxi?.userLastName}}</div>
+    <div class="col">{{userTaxi?.userSecondName}}</div>
+    <div class="col">{{userTaxi?.userRating}}</div>
+    <div class="col-2">
+      <span *ngFor=" let r of userTaxi?.userRoles ">{{r.name}} </span>
+    </div>
+
+    <div class="col"><input type="button" value="Изменить" class="btn btn-sm btn-primary"
+                            (click)="editUserTaxi(userTaxi)"/>
+    </div>
+    <div class="col"><input type="button" value="Удалить" (click)="deleteUserTaxi(userTaxi)"
+                            class="btn btn-sm btn-danger"/>
+    </div>
+  </div>
+</ng-template>
+<!--шаблон для редактирования-->
+<ng-template #editTemplate>
+  <div class="row border-bottom w-100">
+    <div class="col-2"><input type="text" [(ngModel)]="editedUserTaxi.userEmail" class="form-control form-control-sm"/>
+    </div>
+    <div class="col"><input type="text" [(ngModel)]="editedUserTaxi.userPassword" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="text" [(ngModel)]="editedUserTaxi.userFirstName" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="text" [(ngModel)]="editedUserTaxi.userLastName" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="text" [(ngModel)]="editedUserTaxi.userSecondName" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="number" [(ngModel)]="editedUserTaxi.userRating" class="form-control form-control-sm"/></div>
+    <div class="col-2">
+      <select class="custom-select custom-select-sm" multiple [(ngModel)]="editedUserTaxi.userRoles" required>
+        <option *ngFor="let c of userRole" [ngValue]="c">{{c.name}}</option>
+      </select>
+    </div>
+    <div class="col"><input type="button" value="Сохранить" (click)="saveUserTaxi()" class="btn btn-sm btn-success"/>
+    </div>
+    <div class="col"><input type="button" value="Отмена" (click)="cancel()" class="btn btn-sm btn-warning"/></div>
+  </div>
+</ng-template>
+

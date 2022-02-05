@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">M2</string>
+    <string name="Hello_world">Hello World!</string>
+    <string name="pit_name">PROMISING</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="login">LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="title_activity_main_main">Main_main</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_add_request">AddRequestActivity</string>
+    <string name="text_re">Request</string>
+    <string name="pit18">PIT18</string>
+    <string name="pit20">PIT20</string>
+    <string name="pit19">PIT19</string>
+    <string name="draft">Draft::</string>
+    <string name="reuest">Requests:</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="telephone">Telephone</string>
+    <string name="Upload">Uploads</string>
+    <string name="enterFile">not selected</string>
+
+    <string name="Name">Name</string>
+    <string name="saveToDraft">Save to draft</string>
+    <!--<string name="File">File</string>-->
+    <string name="fio">Name</string>
+    <string name="name_work">Names work</string>
+    <string name="no_select">Not selected</string>
+    <string name="file">file</string>
+    <string name="information">INFORMATION</string>
+    <string name="technologies">TECHNOLOGIES</string>
+    <string name="title_activity_reg">Reg</string>
+    <string name="open_map">КАРТА</string>
+    <string name="title_activity_regg">ReggActivity</string>
+    <string name="confirmpass">CONFIRM PASSWORD</string>
+    <string name="tonOnGps">\@tonOnGps</string>
+    <!--<string name="Upload">Загрузить</string>-->
+</resources>

@@ -1,0 +1,42 @@
+<h2>Машины</h2>
+<input type="button" value="Добавить" class="btn btn-sm btn-success" (click)="addCar()"/>
+<div class="d-flex">
+  <div class="row w-100 bg-light p-2">
+    <div class="col">Color</div>
+    <div class="col">Model</div>
+    <div class="col">Number</div>
+    <div class="col">Type</div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+</div>
+<div *ngFor="let car of cars">
+  <ng-template [ngTemplateOutlet]="loadTemplate(car)"
+               [ngTemplateOutletContext]="{ $implicit: car}"></ng-template>
+</div>
+<div class="alert alert-primary" role="alert">
+  {{statusMessage}}
+</div>
+<!--шаблон для чтения-->
+<ng-template #readOnlyTemplate let-car>
+  <div class="row border-bottom p-2">
+    <div class="col">{{car?.car_color}}</div>
+    <div class="col">{{car?.car_model}}</div>
+    <div class="col">{{car?.car_number}}</div>
+    <div class="col">{{car?.car_type}}</div>
+    <div class="col"><input type="button" value="Изменить" class="btn btn-sm btn-primary" (click)="editCar(car)"/></div>
+    <div class="col"><input type="button" value="Удалить" (click)="deleteCar(car)" class="btn  btn-sm btn-danger"/>
+    </div>
+  </div>
+</ng-template>
+<!--шаблон для редактирования-->
+<ng-template #editTemplate>
+  <div class="row border-bottom p-2">
+    <div class="col"><input type="text" [(ngModel)]="editedCar.car_color" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="text" [(ngModel)]="editedCar.car_model" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="text" [(ngModel)]="editedCar.car_number" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="text" [(ngModel)]="editedCar.car_type" class="form-control form-control-sm"/></div>
+    <div class="col"><input type="button" value="Сохранить" (click)="saveCar()" class="btn btn-sm btn-success"/></div>
+    <div class="col"><input type="button" value="Отмена" (click)="cancel()" class="btn btn-sm btn-warning"/></div>
+  </div>
+</ng-template>

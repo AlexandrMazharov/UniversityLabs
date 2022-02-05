@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="google_map_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDlteS2EnnajOlXQfvjbYtJR4jlb-faUvE</string>
+</resources>

@@ -1,0 +1,65 @@
+<h2>Используемые машины </h2>
+<input type="button" value="Добавить" class="btn btn-sm btn-success" (click)="addUsedCar()"/>
+
+<div class="d-flex">
+  <div class="row border-bottom w-100 bg-light p-2">
+    <div class="col">Driver</div>
+    <div class="col">Number Car</div>
+    <div class="col">Data start used</div>
+    <div class="col">Data finish used</div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+</div>
+<div *ngFor="let uc of usedCar">
+  <ng-template [ngTemplateOutlet]="loadTemplate(uc)" [ngTemplateOutletContext]="{ $implicit: uc}"></ng-template>
+</div>
+<div class="alert alert-primary" role="alert">{{statusMessage}}</div> 
+<!--шаблон для чтения-->
+<ng-template #readOnlyTemplate let-uc>
+  <div class="row border-bottom border-bottom py-1 w-100">
+    <div class="col">{{uc?.used_car__driver.userEmail}}</div>
+    <div class="col">{{uc?.used_car__car.car_number}}</div>
+    <div class="col">{{uc?.used_car__with}}</div>
+    <div class="col">{{uc?.used_car__form}}</div>
+    <div class="col"><input type="button" value="Изменить" class="btn  btn-sm btn-primary" (click)="editUsedCar(uc)"/>
+    </div>
+    <div class="col"><input type="button" value="Удалить" (click)="deleteUsedCar(uc)" class="btn btn-sm btn-danger"/>
+    </div>
+  </div>
+</ng-template>
+<!--шаблон для редактирования-->
+<ng-template #editTemplate>
+  <div class="row border-bottom w-100">
+    <div class="mb-3 col">
+      <select class="custom-select custom-select-sm" [(ngModel)]="editedUsedCar.used_car__driver.userId" required>
+        <option *ngFor="let u of users" [ngValue]="u.userId">{{u.userEmail}}</option>
+      </select>
+    </div>
+
+    <div class="mb-3 col">
+      <select class="custom-select custom-select-sm" [(ngModel)]="editedUsedCar.used_car__car.car_id" required>
+        <option *ngFor="let c of cars" [ngValue]="c.car_id">{{c.car_number}}</option>
+      </select>
+    </div>
+
+    <div class="col-2">
+      <mat-form-field>
+        <input matInput [ngxMatDatetimePicker]="picker" [(ngModel)]="editedUsedCar.used_car__with">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <ngx-mat-datetime-picker #picker></ngx-mat-datetime-picker>
+      </mat-form-field>
+    </div>
+    <div class="col-2 ">
+      <mat-form-field>
+        <input matInput [ngxMatDatetimePicker]="picker2" [(ngModel)]="editedUsedCar.used_car__form">
+        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+        <ngx-mat-datetime-picker #picker2></ngx-mat-datetime-picker>
+      </mat-form-field>
+    </div>
+    <div class="col"><input type="button" value="Сохранить" (click)="saveUsedCar()"
+                            class="btn btn-sm btn-success form-control-sm align-self-center"/></div>
+    <div class="col"><input type="button" value="Отмена" (click)="cancel()"
+                            class="btn btn-sm btn-warning form-control-sm align-self-center"/></div>
+  </div>
+</ng-template>
